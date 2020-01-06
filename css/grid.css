@@ -1,0 +1,168 @@
+.new {
+  overflow: hidden;
+  margin-top: 50px;
+}
+[class*="col"] {
+  float: left;
+  padding: 12px;
+  margin-left: 1%;
+}
+.frist {
+  margin-left: 0;
+}
+
+/*////////////////////// Desktop Style/////////////////////////*/
+/*////////////////////// Layout Style/////////////////////////*/
+.row::after {
+  content: ".";
+  clear: both;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  line-height: 0;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 24%;
+}
+.col-4 {
+  width: 32.33%;
+}
+.col-5 {
+  width: 40.66%;
+}
+.col-6 {
+  width: 49%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.64%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.63%;
+}
+.col-12 {
+  width: 100%;
+}
+
+/*////////////////////// MD Style/////////////////////////*/
+/*//////////////////////MD Layout Style/////////////////////////*/
+@media (max-width: 768px) {
+  .home {
+    margin-left: -233px !important;
+  }
+  body.fullscreendark #main > section#home {
+    background-image: url(../img/leftimage-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .btn-resume {
+    margin-left: 181px;
+  }
+  .col-m-1 {
+    width: 8.33%;
+  }
+  .col-m-2 {
+    width: 16.66%;
+  }
+  .col-m-3 {
+    width: 25%;
+  }
+  .col-m-4 {
+    width: 32.33%;
+  }
+  .col-m-5 {
+    width: 40.66%;
+  }
+  .col-m-6 {
+    width: 50%;
+  }
+  .col-m-7 {
+    width: 58.33%;
+  }
+  .col-m-8 {
+    width: 66.64%;
+  }
+  .col-m-9 {
+    width: 75%;
+  }
+  .col-m-10 {
+    width: 83.33%;
+  }
+  .col-m-11 {
+    width: 91.63%;
+  }
+  .col-m-12 {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 479px) {
+  .home {
+    margin-left: -180px !important;
+  }
+  body.fullscreendark #main > section#home {
+    background-image: url(../img/leftimage-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .btn-secondary {
+    width: 62%;
+  }
+  .btn-resume {
+    margin-left: 0px;
+  }
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 32.33%;
+  }
+  .col-s-5 {
+    width: 40.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.64%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.63%;
+  }
+  .col-s-12 {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
