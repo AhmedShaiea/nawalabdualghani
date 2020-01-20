@@ -112,7 +112,7 @@
     margin: 10px 0;
   }
 }
-@media (max-width: 479px) {
+@media (max-width: 460px) {
   .home {
     margin-left: -180px !important;
   }
@@ -122,11 +122,20 @@
     background-repeat: no-repeat;
     background-position: center center;
   }
-  .btn-secondary {
-    width: 62%;
+  .btn {
+    height: 64px;
+    font-size: 25px;
+    padding-top: 10px;
   }
   .btn-resume {
     margin-left: 0px;
+  }
+  .main-text-container {
+    height: 100%;
+    width: 100%;
+    display: table;
+    margin-left: 30vw;
+    max-width: 800px;
   }
   .col-s-1 {
     width: 8.33%;
@@ -163,6 +172,5 @@
   }
   .col-s-12 {
     width: 100%;
-    margin: 10px 0;
   }
 }

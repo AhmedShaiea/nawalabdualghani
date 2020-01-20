@@ -13,12 +13,55 @@
   <body class="dark fullscreendark">
     
     <div class="page ">
-    
+      <header id="header">
+        <div class="nav-container">
+          <div>
+            <!-- Mobile Navigation Starts -->
+            <ul id="nav" class="navigation">
+              <li class="active">
+                <div>
+                  <a id="link-home" href="" class="active">
+                    <i class="fa fa-home"></i><span>Home</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <a id="link-about" href="">
+                    <i class="fa fa-user"></i><span>About me</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <a id="link-contact" href="">
+                    <i class="fa fa-envelope-open"></i><span>Contact Us</span>
+                  </a>
+                </div>
+              </li>
+            </ul>
+            <!-- Mobile Navigation Ends -->
+          </div>
+        </div>
+        <!-- Stretchy Navigation Starts -->
+        <div class="cd-stretchy-nav">
+          <a class="cd-nav-trigger" href="#0">
+            <span aria-hidden="true"></span>
+          </a>
+          <ul class="stretchy-nav">
+            <li class="active"><a href=""><span>Home</span></a></li>
+            <li><a class="link-portfolio-one" href="#about"><span>About</span></a></li>
+            <li><a class="contact" href="#contact"><span>Contact Us</span></a></li>
+          </ul>
+          <span aria-hidden="true" class="stretchy-nav-bg"></span>
+        </div>
+        <!-- Stretchy Navigation Ends -->
+        </header>
       <main id="main">
         <!-- Home Section Starts -->
         <section id="home" class="active">
           <div class="main-text-container row">
-            <div class="main-text col-m-12 col-s-12 home ">
+            <div class="main-text col-m-12 col-s-12 col-12 home ">
               <h3>Hi there !</h3>
               <h1 class="ah-headline">
                 
@@ -361,7 +404,8 @@
                         </div>
                         <div class="col-8 col-m-12 col-s-12 rightside">
                             <p>
-                                If you have any suggestion, project or even you want to say Hello.. please fill out the form below and I will reply you shortly.
+                                If you have any suggestion, project or even you want to say Hello 
+                                please fill out the form below and I will reply you shortly.
                             </p>
                             <form id="contact" class="contactform" method="post" action="http://slimhamdi.net/istanbul/demos/php/process-form.php">
                                 <div class="row">
