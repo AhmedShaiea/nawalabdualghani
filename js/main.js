@@ -144,7 +144,12 @@ window.onload = function() {
   }
 };
 
-//
+let text = "Download My CV";
+var data = new Blob([pdf], { type: "pdf/plain" });
+
+var url = window.URL.createObjectURL(data);
+
+document.getElementById("download_link").href = url;
 
 // let about = document.getElementsByClassName("link-portfolio-one");
 // let secabout = document.getElementById("about");
