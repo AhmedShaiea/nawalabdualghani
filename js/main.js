@@ -36,6 +36,7 @@
     $("body.light #portfolio-items li a").on("click", function() {
       $(".cd-stretchy-nav").addClass("lighter-in-portfolio");
     });
+
     /*  Linke to About us section*/
 
     $(".link-portfolio-one").on("click", function(e) {

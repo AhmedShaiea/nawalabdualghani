@@ -71,9 +71,9 @@
     background-repeat: no-repeat;
     background-position: center center;
   }
-  .btn-resume {
-    margin-left: 181px;
-  }
+  /* .btn-resume {
+    margin-left: -167px;
+  } */
   .col-m-1 {
     width: 8.33%;
   }

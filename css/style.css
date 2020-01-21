@@ -138,7 +138,7 @@ body.fullscreendark #main > section#home {
 }
 
 .call-to-actions-home a:first-child {
-  margin-right: 25px;
+  /* margin-right: 25px; */
 }
 .main-text p {
   margin: 11px 0 23px;
@@ -997,10 +997,11 @@ body.dark .resume-items .item .card-header {
   right: 0;
   bottom: 0;
   padding: 0;
+  /* background-color: #0a080f; */
 }
 
 #header .text-rotator-container {
-  display: none;
+  display: block;
 }
 
 /* navegation
@@ -1444,4 +1445,3 @@ keyframes
     transform: translateX(0);
   }
 }
-
